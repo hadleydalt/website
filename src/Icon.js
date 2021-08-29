@@ -1,7 +1,5 @@
 import React from 'react'
 
-export let topBarText = "Find me on:"
-
 export default class Icon extends React.Component {
     constructor() {
         super();
@@ -15,12 +13,10 @@ export default class Icon extends React.Component {
 
     handleMouseEnter() {
         this.setState({hovered : true});
-        topBarText = this.props.type;
     }
 
     handleMouseLeave() {
         this.setState({hovered : false});
-        topBarText = "Find me on:";
     }
 
     render() {
