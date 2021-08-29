@@ -1,3 +1,5 @@
+import Button from './Button'
+
 function Header() {
     return (
         <div>
@@ -11,6 +13,18 @@ function Header() {
             <div class="filled-circle"></div>
             <div class="dotted-circle"></div>
             <div class="title-bg-border"></div>
+            <div class="button-1-style">
+                <Button text = "Coding Projects"/>
+            </div>
+            <div class="button-2-style">
+                <Button text = "UX Design"/>
+            </div>
+            <div class="button-3-style">
+                <Button text = "Brand Identity"/>
+            </div>
+            <div class="button-4-style">
+                <Button text = "Illustration"/>
+            </div>
         </div>
     )
 }
