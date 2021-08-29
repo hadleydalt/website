@@ -20,18 +20,18 @@ export default class Button extends React.Component {
 
     render() {
         const nonHoveredStyles = {
-            background: "rgba(255,211,183, 1)",
-            background: "linear-gradient(180deg, rgba(255,211,183, 1) 23%, rgba(255,202,221,1) 82%)",
+            background: "rgba(255,211,183, .75)",
+            background: "linear-gradient(90deg, rgba(255,211,183, .75) 23%, rgba(255,202,221,.75) 82%)",
             border: "0px solid transparent",
             color: "white",
             fontFamily: "'Montserrat Alternates'",
             fontSize: "15px",
             fontWeight: "bold",
-            borderRadius: "5px",
+            borderRadius: "15px",
             textShadow: "0px 0px 3px rgba(0, 0, 0, 0.7)",
             width: "140px",
             height: "30px",
-            filter: "drop-shadow(5px 4px 10px rgba(0, 0, 0,.4))"
+            filter: "drop-shadow(5px 4px 10px rgba(0, 0, 0,.2))"
         }
 
         const hoveredStyles = {
@@ -41,11 +41,11 @@ export default class Button extends React.Component {
             fontFamily: "'Montserrat Alternates'",
             fontSize: "15px",
             fontWeight: "bold",
-            borderRadius: "5px",
+            borderRadius: "15px",
             width: "140px",
-            textShadow: "0px 0px 3px rgba(0, 0, 0, 0.7)",
+            textShadow: "0px 0px 3px rgba(0, 0, 0, 0)",
             height: "30px",
-            filter: "drop-shadow(5px 4px 10px rgba(0, 0, 0,.4))"
+            filter: "drop-shadow(5px 4px 10px rgba(0, 0, 0,.2))"
         }
 
         return (
