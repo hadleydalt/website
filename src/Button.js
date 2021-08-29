@@ -21,7 +21,7 @@ export default class Button extends React.Component {
     render() {
         const nonHoveredStyles = {
             background: "rgb(235,196,172)",
-            background: "linear-gradient(180deg, rgba(235,196,172,1) 23%, rgba(212,154,175,1) 82%)",
+            background: "linear-gradient(180deg, rgba(235,196,172,1) 2%, rgba(212,154,175,1) 98%)",
             border: "0px solid transparent",
             color: "white",
             fontFamily: "'Montserrat Alternates'",
